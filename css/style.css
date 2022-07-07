@@ -1,3 +1,99 @@
+* {
+  font-family: 'Gentium Book Plus', serif;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+#weather {
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+#quote {
+  position: relative;
+  transform: translateY(-10%);
+  font-size: 20px;
+}
+
+#quote>span {
+  display: block;
+}
+
+
+form {
+  padding: 30px;
+}
+
+input {
+  border: none;
+  background: transparent;
+  font-size: 30px;
+}
+
+input:nth-child(2) {
+  cursor: pointer;
+}
+
+input::placeholder {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.837);
+}
+
+ul {
+  margin-bottom: 30px;
+  margin-left: 40%;
+}
+
+li {
+  font-size: 24px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
 .hidden {
   display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
